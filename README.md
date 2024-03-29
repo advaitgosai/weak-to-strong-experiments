@@ -10,6 +10,8 @@ Original Approach: Generate the weak labels using an [AlexNet](https://pytorch.o
 
 Modified Approach: Use the weak labels to generate pairwise preferences to train a linear probe, eliciting a stronger weak-to-strong supervision.
 
+Set download=True in data.py for the first run
+
 ```bash
 python3 run_weak_strong.py \
     data_path: <DATA_PATH> \
