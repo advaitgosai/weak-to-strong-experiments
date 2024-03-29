@@ -27,6 +27,7 @@ Run the prefs version using the same command. Refer to the OpenAI GitHub for det
 With the commands above we get the following results (note that the results may not reproduce exactly due to randomness):
 
 AlexNet (weak label) Accuracy: 0.089
+
 DINO ResNet50 (strong on gt) Accuracy: 0.91
 
 | Model                           | PGR   |
