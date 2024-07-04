@@ -1,4 +1,4 @@
-# Weak-to-Strong with Preferences for Vision
+## Weak-to-Strong with Preferences for Vision
 
 Imagenette was chosen due to logistic and compute restrictions (bigger experiments coming soon!)
 
@@ -41,11 +41,28 @@ Scores are low, but better for prefs.
 You can add new custom models to `models.py` and new datasets to `data.py`.
 
 
-# Weak-to-Strong with Preferences on Text
+## Weak-to-Strong with Preferences on Text
 
-Small experiment that I submitted as a classroom assignment
+Submitted as a classroom assignment for CS 690S, here are some results:
 
-[cs690s_final (1).pdf](https://github.com/user-attachments/files/16101485/cs690s_final.1.pdf)
+<img width="688" alt="w2s1" src="https://github.com/advaitgosai/weak-to-strong-experiments/assets/66398068/86746ce3-d123-4991-9583-1bfef91a5cb9">
+
+<img width="675" alt="w2s2" src="https://github.com/advaitgosai/weak-to-strong-experiments/assets/66398068/85ef72d0-95d9-4f31-88cf-874c14572880">
+
+<img width="618" alt="w2s3" src="https://github.com/advaitgosai/weak-to-strong-experiments/assets/66398068/9aa7ff00-e526-4496-aea2-c1fb33cb6261">
+
+<img width="671" alt="w2s4" src="https://github.com/advaitgosai/weak-to-strong-experiments/assets/66398068/5c661ed8-b9e6-40d1-988f-9326e9d2fb64">
+
+### References:
+
+Collin Burns, Pavel Izmailov, Jan Hendrik Kirchner, Bowen Baker, Leo Gao, Leopold Aschenbrenner, Yining Chen, Adrien Ecoffet, Manas Joglekar, Jan Leike, Ilya Sutskever, and Jeff Wu. Weak-to- strong generalization: Eliciting strong capabilities with weak supervision, 2023.
+
+Rafael Rafailov, Archit Sharma, Eric Mitchell, Stefano Ermon, Christopher D. Manning, and Chelsea Finn. Direct preference optimization: Your language model is secretly a reward model, 2023.
+John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, and Oleg Klimov. Proximal policy optimization algorithms, 2017.
+
+Karl Moritz Hermann, Tomas Kocisky, Edward Grefenstette, Lasse Espeholt, Will Kay, Mustafa Suleyman, and Phil Blunsom. Teaching machines to read and comprehend. Advances in neural information processing systems, 28, 2015.
+
+Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever, et al. Language models are unsupervised multitask learners. OpenAI blog, 1(8):9, 2019.
 
 
 
