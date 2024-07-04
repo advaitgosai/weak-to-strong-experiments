@@ -1,6 +1,4 @@
-# wts-vision
-
-# Weak-to-Strong Experiments on ImageNette
+# Weak-to-Strong with Preferences for Vision
 
 Imagenette was chosen due to logistic and compute restrictions (bigger experiments coming soon!)
 
@@ -8,7 +6,7 @@ Inspired by OpenAI's research at (https://github.com/openai/weak-to-strong/tree/
 
 Original Approach: Generate the weak labels using an [AlexNet](https://pytorch.org/vision/main/models/generated/torchvision.models.alexnet.html) model pretrained on ImageNette and we use linear probes on top of [DINO](https://github.com/facebookresearch/dino) models as a strong student.
 
-Modified Approach: Use the weak labels to generate pairwise preferences to train a linear probe, eliciting a stronger weak-to-strong supervision.
+**Modified Approach**: Use the **weak labels to generate pairwise preferences** to train a linear probe, eliciting a stronger weak-to-strong supervision.
 
 Set download=True in data.py for the first run
 
@@ -35,8 +33,21 @@ DINO ResNet50 (strong on gt) Accuracy: 0.91
 | Model                           | PGR   |
 | ------------------------------- | ----- |
 | AlexNet → DINO ResNet50         | 0.096 |
+
 | AlexNet → DINO ResNet50 (Prefs) | 0.132 |
 
-Scores are low, but better for prefs. More extensive testing coming soon!
+Scores are low, but better for prefs.
 
-You can add new custom models to the `models.py` and new datasets to `data.py`.
+You can add new custom models to `models.py` and new datasets to `data.py`.
+
+
+# Weak-to-Strong with Preferences on Text
+
+Small experiment that I submitted as a classroom assignment
+
+[cs690s_final (1).pdf](https://github.com/user-attachments/files/16101485/cs690s_final.1.pdf)
+
+
+
+
+
